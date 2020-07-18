@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminCategoryActivity">
+
+    <TextView
+        android:id="@+id/addNewProductTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:fontFamily="@font/covered_by_your_grace"
+        android:padding="10dp"
+        android:text="Add a New Product"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/addProduct1"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344">
+
+        <ImageView
+            android:id="@+id/fruits"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:src="@drawable/fruits" />
+
+        <ImageView
+            android:id="@+id/veges"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:src="@drawable/vege" />
+
+        <ImageView
+            android:id="@+id/dairy"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:src="@drawable/dairy" />
+
+        <ImageView
+            android:id="@+id/flour"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:src="@drawable/flour" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addProduct1">
+
+        <ImageView
+            android:id="@+id/spices"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/spices" />
+
+        <ImageView
+            android:id="@+id/rice"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/rice" />
+
+
+        <ImageView
+            android:id="@+id/snacks"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/snacks" />
+
+        <ImageView
+            android:id="@+id/soap"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/soap" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+        <ImageView
+            android:id="@+id/stationary"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/stationary" />
+
+        <ImageView
+            android:id="@+id/tissue"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/tissue" />
+
+        <ImageView
+            android:id="@+id/toiletries"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/toiliteries" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/checkOrderButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/buttondesign"
+        android:fontFamily="@font/bubblegum_sans"
+        android:padding="10dp"
+        android:text="Check new orders"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/buttondesign"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/addNewProductTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
