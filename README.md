@@ -31,6 +31,7 @@ An Admin page designed and programming to give priviledged access to admins to a
 <br>
 <br>
 ![](images/adminpage.png)
+
 <br>
 Page designed to add products to various product choices as preferred by the user.
 
