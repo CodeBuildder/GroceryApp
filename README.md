@@ -41,4 +41,9 @@ Page designed to add products to various product choices as preferred by the use
 ![](images/adminaddproduct.png)
 <br>
 This page allows the admin to add an image of the product, the product name, and a neat description of the product, if needed.
+<br>
+<br><br><br>
+
+These are the various pages developed and designed and programmed to get familiar with using Google's Firebase as the database for the backend functioning of the programme.
+
 
